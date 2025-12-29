@@ -49,3 +49,37 @@ export const cardArray = [
     }
 
 ]
+
+
+export const sideBarArray = [
+
+    {
+        id: 0,
+        title: 'Доставка',
+        text: 'Проверка при получении и возможность бесплатно вернуть товар',
+        img: {
+            src: '/image/side-info-1.svg',
+            alt: 'side-info-1'
+        }
+    },
+
+     {
+        id: 1,
+        title: 'Автотека',
+        text: ' Отчёт с историей авто: пробег, владельцы, сведения о залоге, ДТП и ремонтах',
+        img: {
+            src: '/image/side-info-2.svg',
+            alt: 'side-info-2'
+        }
+    },
+
+     {
+        id: 2,
+        title: 'Онлайн-бронирование жилья',
+        text: ' Посуточная аренда квартир и домов: большой выбор вариантов для поездок по России',
+        img: {
+            src: '/image/side-info-3.svg',
+            alt: 'side-info-3'
+        }
+    }
+]
