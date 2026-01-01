@@ -1,0 +1,8 @@
+#error-page {
+  display: flex;
+  flex-direction: column;   /* элементы идут сверху вниз */
+  justify-content: center;  /* вертикальное центрирование */
+  align-items: center;      /* горизонтальное центрирование */
+  height: 100vh;            /* высота на весь экран */
+  text-align: center;       /* выравнивание текста */
+}

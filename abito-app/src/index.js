@@ -10,6 +10,8 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
+import { Error } from './components/Error/Error';
+
 
 const router = createBrowserRouter([
   {
@@ -25,7 +27,13 @@ const router = createBrowserRouter([
         element: <Product />,
       },
     ]
+  },
+  {
+    path: "*",
+    element: <Error message="<h1>404 Страница не найдена</h1>"/>,
   }
+
+
 
 ]);
 
